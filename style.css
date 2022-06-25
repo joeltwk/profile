@@ -1,0 +1,100 @@
+.container {
+  margin: 2.5% 25%;
+}
+
+.card {
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  padding: 50px;
+  box-shadow: 2px 2px 75px #d5d5d5;
+  margin: 20px;
+}
+
+#profile-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.image-round {
+  border-radius: 50%;
+}
+
+.header {
+  color: #595959;
+  font-family: 'Titillium', sans-serif;
+}
+
+.subheader {
+  color: #595959;
+  font-family: 'Titillium', sans-serif;
+}
+
+p {
+  font-family: 'Titillium', sans-serif;
+  margin-bottom: 50px;
+}
+
+.btn {
+  background-color: #262626;
+  border-radius: 5px;
+  color: #d5d5d5;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-family: 'Titillium', sans-serif;
+}
+
+.btn:hover {
+  background-color: #595959;
+  border-radius: 5px;
+  color: #d5d5d5;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-family: 'Titillium', sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  padding: 0;
+}
+
+ul li {
+  margin: 0 auto;
+}
+
+ul li a {
+  color: #262626;
+  font-size: 3em;
+}
+
+ul li a:hover {
+  color: #595959;
+  font-size: 3em;
+}
+
+/* responsive */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
